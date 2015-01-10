@@ -84,7 +84,7 @@ angular
       76: "Thanks for the way you are paying the bills."
     }
 
-   $scope.previousQuestion = () ->
+    $scope.previousQuestion = () ->
       $scope.current -= 1
       $scope.current = $scope.totalQuestions if $scope.current < 1
       supersonic.ui.animate("slideFromLeft", $scope.options).perform()

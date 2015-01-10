@@ -35,6 +35,10 @@ module.exports =
       location: "resources#openEndedQuestions"
     }
     {
+      id: "rituals-of-connection"
+      location: "resources#ritualsOfConnection"
+    }
+    {
       id: "fun-and-play"
       location: "resources#funAndPlay"
     }
